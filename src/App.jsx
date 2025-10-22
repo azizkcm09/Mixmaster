@@ -14,10 +14,24 @@ const App = () => {
     {
       path: "/",
       element: <HomeLayout />,
-    },
-    {
-      path: "/about",
-      element: <About />,
+      children: [
+        {
+          index: true,
+          element: <Landing />,
+        },
+        {
+          path: "/coctail",
+          element: <Coctail />,
+        },
+        {
+          path: "/newsletter",
+          element: <Newsletter />,
+        },
+        {
+          path: "/about",
+          element: <About />,
+        },
+      ],
     },
   ]);
   return <RouterProvider router={router} />;
