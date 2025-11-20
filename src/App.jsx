@@ -24,7 +24,7 @@ const App = () => {
           loader: landingLoader,
         },
         {
-          path: "/coctail",
+          path: "/coctail/:id",
           element: <Coctail />,
         },
         {
