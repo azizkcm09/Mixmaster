@@ -1,4 +1,6 @@
-import React from "react";
+export const loader = async () => {
+  return "something";
+};
 
 const Landing = () => {
   return (

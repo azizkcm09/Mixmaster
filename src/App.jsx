@@ -8,7 +8,7 @@ import {
   Coctail,
   Error,
 } from "./pages";
-
+import { loader as landingLoader } from "./pages/Landing";
 const App = () => {
   const router = createBrowserRouter([
     {
@@ -19,6 +19,7 @@ const App = () => {
         {
           index: true,
           element: <Landing />,
+          loader: landingLoader,
         },
         {
           path: "/coctail",
