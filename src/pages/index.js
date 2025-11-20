@@ -3,6 +3,6 @@ import SinglePageError from "./SinglePageError";
 export { default as Newsletter } from "./Newsletter";
 export { default as HomeLayout } from "./HomeLayout";
 export { default as About } from "./About";
-export { default as Coctail } from "./Coctail";
+export { default as Coctail } from "./Cocktail";
 export { default as Error } from "./Error";
 export { default as SinglePageError } from "./SinglePageError";
