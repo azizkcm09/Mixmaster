@@ -7,6 +7,7 @@ import {
   Newsletter,
   Coctail,
   Error,
+  SinglePageError,
 } from "./pages";
 import { loader as landingLoader } from "./pages/Landing";
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
         {
           index: true,
           element: <Landing />,
+          errorElement: <SinglePageError />,
           loader: landingLoader,
         },
         {
